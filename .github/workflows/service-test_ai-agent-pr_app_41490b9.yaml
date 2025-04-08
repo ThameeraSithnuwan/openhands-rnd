@@ -11,30 +11,6 @@ name: service-test_ai-agent-pr_app_41490b9 Pipeline (Skyu Generated)
   pull_request:
     types:
       - labeled
-  issue_comment:
-    types:
-      - created
-    paths-ignore:
-      - .github/workflows/**
-      - .trivyignore
-      - Readme.md
-      - README.md
-  pull_request_review_comment:
-    types:
-      - created
-    paths-ignore:
-      - .github/workflows/**
-      - .trivyignore
-      - Readme.md
-      - README.md
-  pull_request_review:
-    types:
-      - submitted
-    paths-ignore:
-      - .github/workflows/**
-      - .trivyignore
-      - Readme.md
-      - README.md
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_506159ca-acc7-4c5b-87d2-352a2efc424a
